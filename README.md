@@ -1,0 +1,1 @@
+*** All python scripts are intended to be executed from the repository's root directory

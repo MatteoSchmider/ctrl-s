@@ -1,0 +1,40 @@
+\documentclass[parskip=full, 12pt, oneside]{report}
+
+\usepackage{float}
+\usepackage[utf8]{inputenc} % use utf8 file encoding for TeX sources
+\usepackage[T1]{fontenc}    % avoid garbled Unicode text in pdf
+\usepackage[english]{babel} % english hyphenation, quotes, etc
+\usepackage{hyperref}       % detailed hyperlink/pdf configuration
+\usepackage{csquotes}       % provides \enquote{} macro for "quotes"
+\usepackage[nonumberlist]{glossaries}     % provides glossary commands
+\usepackage{tikz}
+\hypersetup{
+  pdftitle={BEG-Bericht-Akkuspeicher},
+}
+
+
+\subject{BürgerEnergiegenossenschaft Ettlingen e.V.}
+\title{Bericht zur Wirtschaftlichkeit eines Betriebsmodells für Lithium-Eisenphosphat-Akkumulatoren}
+\author{Matteo Schmider}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{empty}
+\newpage
+
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\tableofcontents
+\newpage
+
+\input{Einleitung}
+\input{Betriebsmodell}
+\input{Marktbetrachtung}
+\input{Wirtschaftlichkeitsnachweis}
+\input{Fazit}
+
+\end{document}
