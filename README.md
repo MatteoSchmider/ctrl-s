@@ -1,6 +1,6 @@
 # CTRL-S
 
-This repository currently contains both python scripts and latex sources for a report on the financial viability of lithium ion based batteries in conjunction with solar power for the BürgerEnergiegenossenschaft Karlsruhe Ettlingen eV.
+This repository currently contains both python scripts and latex sources for a report on the financial viability of lithium ion based batteries in conjunction with solar power for the BürgerEnergiegenossenschaft Region Karlsruhe Ettlingen eG
 
 All python scripts are intended to be executed from the repository's root directory.
 To initialize the raw data:
